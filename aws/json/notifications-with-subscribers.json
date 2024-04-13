@@ -1,0 +1,20 @@
+[
+    {
+        "Notification": {
+            "ComparisonOperator": "GREATER_THAN",
+            "NotificationType": "ACTUAL",
+            "Threshold": 80,
+            "ThresholdType": "PERCENTAGE"
+        },
+        "Subscribers": [
+            {
+                "Address": "mjresch19@gmail.com",
+                "SubscriptionType": "EMAIL"
+            },
+            {
+                "Address": "reschmax@msu.edu",
+                "SubscriptionType": "EMAIL"
+            }
+        ]
+    }
+]
